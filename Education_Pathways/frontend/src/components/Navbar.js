@@ -66,7 +66,9 @@ export default class NavbarComp extends Component {
                   Search
                 </Nav.Link> */}
 
-                
+                <Nav.Link as={Link} to="/ECE444-Lab1">
+                  ECE444-Lab1
+                </Nav.Link>
 
               </Nav>
             </Navbar.Collapse>
@@ -94,6 +96,15 @@ We are looking for feedback to improve Education Pathways and make it more usefu
       </div>
               {/* <SearchResultDisplay /> */}
             </Route>
+
+            <Route path ="/ECE444-Lab1">
+                <p>
+                Mohammad Ahmed  
+                </p>
+
+            </Route>
+
+
             <Route path="/search">
               <SearchResultDisplay />
             </Route>
